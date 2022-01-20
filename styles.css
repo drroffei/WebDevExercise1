@@ -1,0 +1,142 @@
+
+    body{
+        margin: 0;
+        background-color: rgb(170, 170, 170);
+        font-family: sans-serif;
+        font-size: 14px;
+        line-height: 1.6em;
+    }
+    a:link{
+        text-decoration: none;
+    }
+    #fullPage{
+        display:  grid;
+        grid-template-columns: 170px 1fr;
+        grid-template-rows: 80px 1fr 80px;
+        background-color: rgb(196, 196, 196);
+
+    }
+    
+    th{
+      border:1px solid black;
+      background-color: rgb(230, 230, 230);
+    }
+
+    /* table, td{
+        border:1px solid black;
+        background-color: rgb(243, 243, 243);
+        border-collapse: collapse;
+    } */
+
+    #leftMenu{
+        grid-column: 1;
+        grid-row: 1;
+        padding:10px;
+        
+    }
+
+    .bodyText{
+        grid-column: 2;
+        grid-row: 2;
+        background: lightgray;
+        padding-left:25px;
+        padding-right: 25px;
+        padding-top: 10px;
+
+
+    }
+
+    #header{
+        grid-row: 1;
+        grid-column: 2; 
+    }
+
+************************************
+
+    a:link{
+        text-decoration: none;
+    }
+    .fromWikipedia{
+        line-height: 5px;
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+    .clearFix{
+        clear: both;
+    }
+    .tableRightCol{
+        text-align: right;
+    }
+    .subTitle{
+        font-size: 22px;
+        font-family: serif;
+        border-bottom: 1px solid black;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .subSubTitle{
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .sideBarHeader{
+        text-align: center;
+        background-color: gray;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    .sideBarDescText{
+        text-align: center;
+        font-size: 12px;
+        line-height: 1em;
+    }
+    #container{
+        float: right;
+    }
+    #systemicTable{
+        align-content: center;
+    }
+    #title{    
+        border-bottom: 1px solid black;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 28px;
+        font-family: serif;
+    }
+    #introText{
+        box-sizing: border-box;
+    }
+    #sideBar{
+        float: right;
+        float:inline-end;
+        width: 310px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+    #contentsMenu{
+        float: left;
+        border: 1px solid black;
+        color: blue;
+        font-size: 13px;
+        margin: 2px;
+        padding-right: 10px;
+    }
+    #contentsMenu header{    
+        font-weight: bold;
+        text-indent: 10px;
+        color: black;
+    }
+    #taxonomySection{
+        float: left;
+        float:inline-start;
+    }
+    #descriptionSection{
+        float: left;
+    }
+    #secondImage{
+        float: right;
+        border: 1px solid black;
+        padding: 5px;
+        margin-top: 50px;
+    }
+
