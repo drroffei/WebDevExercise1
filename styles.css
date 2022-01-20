@@ -6,9 +6,7 @@
         font-size: 14px;
         line-height: 1.6em;
     }
-    a:link{
-        text-decoration: none;
-    }
+
     #fullPage{
         display:  grid;
         grid-template-columns: 170px 1fr;
@@ -51,8 +49,7 @@
         grid-column: 2; 
     }
 
-************************************
-
+/*  */
     a:link{
         text-decoration: none;
     }
